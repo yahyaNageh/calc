@@ -26,5 +26,6 @@ form.addEventListener("submit", (e) => {
 incomeBtn.addEventListener("click", (e) => {
   if (income.value) {
     localStorage.setItem("income", income.value);
+    location.reload();
   }
 });
