@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+body {
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+form label {
+  display: flex;
+  gap: 10px;
+}
+
+form label div {
+  width: 5ch;
+  text-align: center;
+}
+
+button {
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px black solid;
+  background-color: white;
+  color: rgb(34, 34, 34);
+}
+p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+.plot {
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  height: 4ch;
+  background-color: rgb(193, 193, 193);
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+input#income {
+  width: 60px;
+}
+
+input#income::-webkit-inner-spin-button {
+  display: none;
+}
+input#income::-webkit-outer-spin-button {
+  display: none;
+}
